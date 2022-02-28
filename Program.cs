@@ -1,2 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace Csharp
+{
+    class Program
+    {
+        static void Main (string[] args)
+        {
+            int numdevezes = 5;
+
+            for (int i=0; i <= numdevezes; i++)
+            {
+                Console.WriteLine($"dia de teste {i}");
+            }
+        }
+    }
+}
